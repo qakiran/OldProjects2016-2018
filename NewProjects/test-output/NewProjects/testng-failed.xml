@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [NewProjects]">
+  <test name="SkyScannerTitle(failed)">
+    <classes>
+      <class name="ExtentReports.SkyScannerTitle">
+        <methods>
+          <include name="quit"/>
+          <include name="confirmTitlee"/>
+          <include name="loadSite"/>
+          <include name="quitReport"/>
+        </methods>
+      </class> <!-- ExtentReports.SkyScannerTitle -->
+    </classes>
+  </test> <!-- SkyScannerTitle(failed) -->
+  <test name="SkyScannerTitleFail(failed)">
+    <classes>
+      <class name="ExtentReports.SkyScannerTitleFail">
+        <methods>
+          <include name="quitReport"/>
+          <include name="confirmTitlee"/>
+          <include name="loadSite"/>
+        </methods>
+      </class> <!-- ExtentReports.SkyScannerTitleFail -->
+    </classes>
+  </test> <!-- SkyScannerTitleFail(failed) -->
+</suite> <!-- Failed suite [NewProjects] -->

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="NewProjects" verbose="1" >
+     <test name="LoadSiteTrainLine" >
+    <classes>
+       <class name="ExtentReports.LoadSiteTrainLine" />
+    </classes>
+  </test>
+  
+  <test name="SkyScannerTitle" >
+    <classes>
+       <class name="ExtentReports.SkyScannerTitle" />
+    </classes>
+  </test>
+  
+  <test name="SkyScannerTitleFail" >
+    <classes>
+       <class name="ExtentReports.SkyScannerTitleFail" />
+    </classes>
+  </test>
+  
+  <test name="TrainTickets" >
+    <classes>
+       <class name="ExtentReports.TrainTickets" />
+    </classes>
+  </test>
+  
+    <test name="TrainLineTryCatch" >
+    <classes>
+       <class name="ExtentReports.TrainLineTryCatch" />
+    </classes>
+  </test>
+   
+   <test name="HouseSearchStrings" >
+    <classes>
+       <class name="zoopla.HouseSearchStrings" />
+    </classes>
+  </test>
+ </suite>
